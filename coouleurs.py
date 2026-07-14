@@ -11,8 +11,10 @@ init()# important pour windows
 print(Fore.RED + "Ceci est en ROUGE")
 print(Fore.GREEN + "Ceci est en VERT")
 print(Fore.BLUE + "Ceci est en BLEU")
-print(Back.BLUE + Fore.BLACK + "Fond JAUNE,texte NOIR")
+print(Back.BLUE + Fore.BLACK + "Fond JAUNE,texte NOIR" +Style.RESET_ALL)
+print()
 print(Style.RESET_ALL + "Et là on revient à la normale") #Remets tout à zéro +le texte
+print()
 #Fore=Couleur du texte
 #Back=Couleur du fond
 # Style=Gras,Normal,etc
